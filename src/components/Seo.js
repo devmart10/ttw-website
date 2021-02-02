@@ -1,24 +1,24 @@
-import React from "react";
-import { NextSeo } from "next-seo";
+import React from 'react';
+import { NextSeo } from 'next-seo';
 
 const Seo = () => {
   return (
     <NextSeo
-      title="Tailwind Template"
-      description="Tailwind Template description"
-      canonical="https://devon-martin.now.sh/"
+      title='Test The Waters'
+      description='East Bay Pop Punk | Test The Waters'
+      canonical='https://ttw-website-one.vercel.app/'
       openGraph={{
-        url: "https://devon-martin.now.sh/",
-        type: "website",
-        locale: "en_IE",
-        title: "Tailwind Template",
-        description: "Tailwind Template description",
-        site_name: "Tailwind Template",
+        url: 'https://ttw-website-one.vercel.app/',
+        type: 'website',
+        locale: 'en_IE',
+        title: 'Test The Waters',
+        description: 'East Bay Pop Punk | Test The Waters',
+        site_name: 'Test The Waters',
       }}
       twitter={{
-        handle: "@devmart10",
-        site: "@devmart10",
-        cardType: "summary_large_image",
+        handle: '@testthewatersca',
+        site: 'https://twitter.com/testthewatersca',
+        cardType: 'summary_large_image',
       }}
     />
   );
