@@ -2,7 +2,7 @@ import React from 'react';
 
 const Bio = () => {
   return (
-    <section id='bio' className='my-8 text-platinum'>
+    <section id='bio' className='my-8 text-lg text-platinum'>
       <h2 className=''>Bio</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quisquam illum reprehenderit quidem doloremque esse eaque suscipit magnam placeat fuga praesentium vero quasi alias iusto ipsum
