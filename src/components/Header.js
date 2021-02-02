@@ -1,4 +1,5 @@
 import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Socials from '../components/Socials';
 import { FaEnvelope } from 'react-icons/fa';
 
@@ -13,9 +14,9 @@ const Header = () => {
           <a href='#' className='mr-12 text-ttw'>
             Home
           </a>
-          <a href='#' className='mr-12 text-ttw'>
+          <AnchorLink href='#bio' className='mr-12 text-ttw'>
             Bio
-          </a>
+          </AnchorLink>
           <Socials></Socials>
           <a href={`mailto:${data.email}`} className='font-normal'>
             <FaEnvelope></FaEnvelope>
