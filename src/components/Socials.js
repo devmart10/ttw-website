@@ -1,22 +1,22 @@
-import React from "react";
-import { FaGithub, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
+import React from 'react';
+import { FaTwitter, FaSpotify, FaApple, FaInstagram } from 'react-icons/fa';
 
-import data from "../data/personal.json";
+import data from '../data/personal.json';
 
 const Socials = () => {
   return (
-    <div className="flex">
-      <a target="_blank" rel="noopener" href={data.socials.github} className="pr-2">
-        <FaGithub></FaGithub>
+    <div className='flex'>
+      <a target='_blank' rel='noopener' href={data.socials.spotify} className='pr-2'>
+        <FaSpotify></FaSpotify>
       </a>
-      <a target="_blank" rel="noopener" href={data.socials.facebook} className="pr-2">
-        <FaFacebook></FaFacebook>
+      <a target='_blank' rel='noopener' href={data.socials.instagram} className='pr-2'>
+        <FaInstagram></FaInstagram>
       </a>
-      <a target="_blank" rel="noopener" href={data.socials.twitter} className="pr-2">
+      <a target='_blank' rel='noopener' href={data.socials.twitter} className='pr-2'>
         <FaTwitter></FaTwitter>
       </a>
-      <a target="_blank" rel="noopener" href={data.socials.linkedin} className="pr-2">
-        <FaLinkedin></FaLinkedin>
+      <a target='_blank' rel='noopener' href={data.socials.apple} className='pr-2'>
+        <FaApple></FaApple>
       </a>
     </div>
   );
