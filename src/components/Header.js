@@ -6,7 +6,7 @@ import data from '../data/personal.json';
 
 const Header = () => {
   return (
-    <header className='mb-4 shadow-lg bg-charcoal'>
+    <header className='mb-4 shadow-lg'>
       <div className='flex flex-wrap items-baseline p-8 my-container'>
         <h1 className='mb-0 mr-auto font-semibold tracking-wider text-platinum'>Test The Waters</h1>
         <div className='flex items-center text-2xl text-platinum'>
