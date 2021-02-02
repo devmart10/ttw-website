@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const Footer = () => {
-  return <footer className="py-1 text-center text-gray-100 shadow-lg bg-primary">&copy; 2020 Devon Martin</footer>;
+  return <footer className='py-1 text-center text-charcoal'>&copy; 2021 Test The Waters</footer>;
 };
 
 export default Footer;
